@@ -10,7 +10,7 @@ port.on('open',function() {
 
     console.log('port is open');
 
-    var printer = new Printer(serialPort);
+    var printer = new Printer(port);
 
     printer.on('ready', function() {
         console.log('printer is ready');
