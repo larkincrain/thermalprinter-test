@@ -1,0 +1,19 @@
+{
+  "name": "thermalprinter-test",
+  "version": "1.0.0",
+  "author": "Larkin Crain <larkincrain@gmail.com>",
+  "contributors": [
+    {
+      "name": "Larkin Crain",
+      "email": "larkincrain@gmail.com"
+    }
+  ],
+  "bin": {
+    "module-name": "./bin/module-name"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "serialport": "latest",
+    "thermalprinter": "latest"
+  }
+}
